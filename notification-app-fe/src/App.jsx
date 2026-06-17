@@ -1,3 +1,9 @@
-export default function App() {
-  return "Notifications App";
+import './App.css';
+import NotificationPage from './pages/NotificationsPage';
+export default function App(){
+  return(
+    <div className="app">
+      <NotificationPage />
+    </div>
+  );
 }
